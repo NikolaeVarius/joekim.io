@@ -1,0 +1,7 @@
+languageCode = "en-us"
+title = "JoeKim.io"
+baseurl = "https://joekim.io/"
+theme = "hyde"
+
+[params]
+  layoutReverse = true
