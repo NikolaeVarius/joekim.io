@@ -1,12 +1,8 @@
-baseurl = "https://example.com"
-title = "Academic Theme"
-copyright = "&copy; 2016 Your Name"
+baseurl = "https://joekim.io"
+title = "joekim.io"
 theme = "academic"
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
+enableEmoji = false
+#footnotereturnlinkcontents = "<sup>^</sup>"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -19,16 +15,10 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true
 
 [params]
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
-  organization = "Stanford University"
+  name = "Joseph Kim"
+  role = "Software Engineer"
   avatar = "portrait.jpg"
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
+  email = "joekim29@gmail.com"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
@@ -46,7 +36,7 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["custom.css"]
   custom_js  = []
 
 
@@ -60,7 +50,7 @@ defaultContentLanguageInSubdir = false
   #   For email icon, use "fa" icon pack, "envelope" icon, and
   #   "mailto:your@email.com" as the link.
   #
-  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #   Full list: https://fortawesome.github.io/Font-AwesomExperiencee/icons/
   #
   # Icon pack "ai" includes the following academic network icons:
   #
@@ -71,23 +61,17 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
-
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
-
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "mailto:joekim29@gmail.com"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "https://github.com/NikolaeVarius"
 
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://www.linkedin.com/in/joekim29"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -96,28 +80,18 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Home"
-  url = "#about"
+  url = "#home"
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "About"
+  url = "#about"
   weight = 2
 
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
-
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
-
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+#[[menu.main]]
+#  name = "Experience"
+#  url = "#experience"
+#  weight = 4
 
 [[menu.main]]
   name = "Contact"
